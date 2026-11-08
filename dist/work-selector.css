@@ -1,0 +1,11 @@
+.author-modal-visual { background-position: center; background-repeat: no-repeat; background-size: contain; }
+.author-modal-visual img { display: none !important; }
+.author-modal-works li { cursor: pointer; transition: background .2s, padding .2s; }
+.author-modal-works li:hover,.author-modal-works li:focus-visible,.author-modal-works li.active { background: var(--red); padding-left: 12px; padding-right: 12px; outline: 0; }
+.author-modal-works li.active b:after { content: "  ← EM EXIBIÇÃO"; font: 500 8px var(--mono); letter-spacing: .06em; white-space: nowrap; }
+.work-preview-meta { position: absolute; left: 28px; right: 28px; bottom: 24px; z-index: 2; color: var(--paper); display: flex; justify-content: space-between; align-items: end; gap: 20px; font-family: var(--mono); text-shadow: 0 1px 10px rgba(0,0,0,.7); }
+.work-preview-meta b { font: 600 16px/1.2 var(--sans); max-width: 70%; }
+.work-preview-meta small { font-size: 10px; }
+.author-modal-visual.no-image .work-preview-meta { color: #f0b91e; text-shadow: none; }
+.author-modal-visual.no-image span { opacity: .22; }
+@media(max-width:760px){.work-preview-meta{left:20px;right:20px;bottom:16px}.author-modal-works li{grid-template-columns:26px 1fr auto}}

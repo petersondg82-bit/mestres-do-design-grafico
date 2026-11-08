@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Uma jornada editorial pelos designers que transformaram a comunicação visual." />
+  <meta name="theme-color" content="#11100e" />
+  <title>Mestres do Design Gráfico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="details.css" />
+  <link rel="stylesheet" href="gallery.css" />
+  <link rel="stylesheet" href="brasil.css" />
+  <link rel="stylesheet" href="brasil-fix.css" />
+  <link rel="stylesheet" href="author-modal.css" />
+  <link rel="stylesheet" href="modal-fix.css" />
+  <link rel="stylesheet" href="work-selector.css" />
+  <link rel="stylesheet" href="legacy-expanded.css" />
+  <link rel="stylesheet" href="footer-fix.css" />
+  <link rel="stylesheet" href="site-title.css" />
+  <script src="script.js" defer></script>
+  <script src="work-selector.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="nav-wrap">
+    <a href="#inicio" class="brand" aria-label="Início">MD<span>—</span>G</a>
+    <nav aria-label="Navegação principal">
+      <a href="#mestres">Mestres do mundo</a>
+      <a href="#brasil">Mestres do Brasil</a>
+      <a href="#linha-do-tempo">Linha do tempo</a>
+      <a href="#legado">Legado</a>
+    </nav>
+    <span class="issue">EDIÇÃO 01 / 2026</span>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-kicker"><span>Arquivo visual</span><span>1919—Hoje</span></div>
+      <p class="site-name" aria-label="Mestres do Design Gráfico"><span>Mestres do</span><strong>Design Gráfico</strong></p>
+      <h1><span>Design</span><span class="outline">muda</span><span>o mundo.</span></h1>
+      <div class="hero-bottom">
+        <p>Oito criadores. Um século de ideias. Uma jornada pelos nomes que transformaram letras, imagens e sistemas em cultura.</p>
+        <a class="round-link" href="#mestres" aria-label="Explorar os designers"><span>EXPLORAR</span><b>↓</b></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="red-disc"></div><div class="black-square"></div><div class="blue-bar"></div><div class="type-mark">Aa</div>
+      </div>
+    </section>
+
+    <section class="manifesto reveal">
+      <p class="eyebrow">POR QUE ELES IMPORTAM</p>
+      <blockquote>“Design não é decoração. É a forma como <em>entendemos</em> o mundo antes mesmo de lê-lo.”</blockquote>
+      <p class="side-note">De cartazes políticos a identidades globais, estes designers criaram linguagens que ainda moldam a maneira como vemos, escolhemos e lembramos.</p>
+    </section>
+
+    <section id="mestres" class="masters">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 — O PANTEÃO</p>
+        <h2>Oito nomes.<br>Infinitas influências.</h2>
+        <p>Selecione uma era para filtrar.</p>
+      </div>
+      <div class="filters reveal" role="group" aria-label="Filtrar designers por era">
+        <button class="active" data-filter="all">Todos</button>
+        <button data-filter="pioneiros">Pioneiros</button>
+        <button data-filter="modernismo">Modernismo</button>
+        <button data-filter="pos-moderno">Pós-moderno</button>
+        <button data-filter="digital">Era digital</button>
+      </div>
+      <div class="designer-grid">
+        <article class="designer-card reveal" data-era="pioneiros" data-author="gropius" tabindex="0">
+          <div class="card-visual bauhaus"><span>01</span><i></i><b></b></div>
+          <div class="card-copy"><p>ALEMANHA · 1883—1969</p><h3>Walter<br>Gropius</h3><span>Bauhaus · Forma & função</span></div>
+          <div class="card-detail"><p>Fundou a Bauhaus em 1919 e uniu arte, artesanato e indústria em uma escola que redefiniu o design moderno.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Manifesto da Bauhaus <em>1919</em></li><li>Edifício Bauhaus, Dessau <em>1926</em></li><li>Casas dos Mestres, Dessau <em>1926</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="pioneiros" data-author="lissitzky" tabindex="0">
+          <div class="card-visual tchurch"><span>02</span><i>а</i><b>Б</b></div>
+          <div class="card-copy"><p>RÚSSIA · 1890—1941</p><h3>El<br>Lissitzky</h3><span>Construtivismo · Propaganda</span></div>
+          <div class="card-detail"><p>Transformou geometria, tipografia e fotomontagem em instrumentos de comunicação política e experimentação visual.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Bata os brancos com a cunha vermelha <em>1919</em></li><li>Proun 19D <em>1920–21</em></li><li>Sobre dois quadrados <em>1922</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="modernismo" data-author="brockmann" tabindex="0">
+          <div class="card-visual swiss"><span>03</span><i>G</i><b></b></div>
+          <div class="card-copy"><p>SUÍÇA · 1914—1996</p><h3>Josef<br>Müller-Brockmann</h3><span>Grid suíço · Clareza</span></div>
+          <div class="card-detail"><p>Elevou o grid a um sistema de ordem visual, criando cartazes de precisão, ritmo e legibilidade radicais.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Série de cartazes Musica Viva <em>1950–60</em></li><li>Cartaz Beethoven <em>1955</em></li><li>Grid Systems in Graphic Design <em>1981</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="modernismo" data-author="bass" tabindex="0">
+          <div class="card-visual bass"><span>04</span><i></i><b></b></div>
+          <div class="card-copy"><p>EUA · 1920—1996</p><h3>Saul<br>Bass</h3><span>Cinema · Símbolos</span></div>
+          <div class="card-detail"><p>Reinventou os créditos de cinema e criou identidades reduzidas a formas essenciais, expressivas e inesquecíveis.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>O Homem do Braço de Ouro <em>1955</em></li><li>Um Corpo que Cai <em>1958</em></li><li>Psicose <em>1960</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="modernismo" data-author="rand" tabindex="0">
+          <div class="card-visual rand"><span>05</span><i>IBM</i><b>••••••••</b></div>
+          <div class="card-copy"><p>EUA · 1914—1996</p><h3>Paul<br>Rand</h3><span>Identidade · Ideia</span></div>
+          <div class="card-detail"><p>Mostrou que uma marca podia ser inteligente e lúdica. Seus sistemas para IBM, ABC e UPS atravessaram décadas.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Identidade IBM <em>1956–72</em></li><li>Logo UPS <em>1961</em></li><li>Logo ABC <em>1962</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="modernismo" data-author="vignelli" tabindex="0">
+          <div class="card-visual velli"><span>06</span><i>V</i><b>Aa</b></div>
+          <div class="card-copy"><p>ITÁLIA · 1931—2014</p><h3>Massimo<br>Vignelli</h3><span>Sistemas · Disciplina</span></div>
+          <div class="card-detail"><p>Aplicou uma linguagem sistemática a mapas, livros e marcas, defendendo um design atemporal e rigoroso.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Identidade American Airlines <em>1967</em></li><li>Sinalização do metrô de Nova York <em>1970</em></li><li>Mapa do metrô de Nova York <em>1972</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="pos-moderno" data-author="scher" tabindex="0">
+          <div class="card-visual sch style"><span>07</span><i>NOISE</i><b>TYPE</b></div>
+          <div class="card-copy"><p>EUA · 1948</p><h3>Paula<br>Scher</h3><span>Tipografia · Cultura</span></div>
+          <div class="card-detail"><p>Transformou tipografia em voz, movimento e arquitetura; seu trabalho liga cultura popular e identidade institucional.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Identidade do The Public Theater <em>1994</em></li><li>Bring in ’da Noise, Bring in ’da Funk <em>1995</em></li><li>Identidade Citibank <em>1998</em></li></ul></div></div>
+        </article>
+        <article class="designer-card reveal" data-era="digital" data-author="carson" tabindex="0">
+          <div class="card-visual carson"><span>08</span><i>RAY</i><b>GUN</b></div>
+          <div class="card-copy"><p>EUA · 1955</p><h3>David<br>Carson</h3><span>Editorial · Ruptura</span></div>
+          <div class="card-detail"><p>Desafiou regras de legibilidade nos anos 1990 e tornou a página um espaço emocional, caótico e experimental.</p><div class="key-works"><b>OBRAS-CHAVE</b><ul><li>Revista Beach Culture <em>1989–91</em></li><li>Revista Ray Gun <em>1992–95</em></li><li>The End of Print <em>1995</em></li></ul></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="brasil" class="brazil-section">
+      <div class="brazil-hero reveal">
+        <div class="brazil-label"><span>02</span><p>CAPÍTULO ESPECIAL<br>DESIGN GRÁFICO NO BRASIL</p></div>
+        <h2>Entre o<br><em>sistema</em><br>e a <i>ruptura.</i></h2>
+        <p class="brazil-intro">O design brasileiro moderno nasceu do encontro entre método internacional e cultura local. Construiu marcas públicas, organizou a indústria, reinventou revistas e deu imagem a movimentos que transformaram o país.</p>
+        <div class="brazil-sun" aria-hidden="true"><span>BR</span></div>
+      </div>
+
+      <div class="brazil-thesis reveal">
+        <p>1950—1980</p>
+        <blockquote>Uma linguagem brasileira não como estilo fixo, mas como capacidade de <strong>absorver, reorganizar e devolver</strong> o mundo.</blockquote>
+      </div>
+
+      <div class="brazil-designers">
+        <article class="brazil-card reveal" data-author="aloisio" tabindex="0">
+          <div class="brazil-number">01</div><div class="brazil-mark mark-aloisio" aria-hidden="true"><span>A</span></div>
+          <div class="brazil-copy"><p>PERNAMBUCO · 1927—1982</p><h3>Aloísio<br>Magalhães</h3><p>Unia cultura, Estado e indústria em sistemas de comunicação capazes de funcionar em escala nacional.</p></div>
+          <div class="brazil-works"><b>PROJETOS-CHAVE</b><ul><li>Símbolo do IV Centenário do Rio <em>1965</em></li><li>Cédulas do Cruzeiro Novo <em>1966—70</em></li><li>Identidade Petrobras <em>1970—72</em></li></ul></div>
+        </article>
+        <article class="brazil-card reveal" data-author="wollner" tabindex="0">
+          <div class="brazil-number">02</div><div class="brazil-mark mark-wollner" aria-hidden="true"><span>W</span></div>
+          <div class="brazil-copy"><p>SÃO PAULO · 1928—2018</p><h3>Alexandre<br>Wollner</h3><p>Trouxe de Ulm uma visão rigorosa do design como sistema e ajudou a profissionalizar a atividade no Brasil.</p></div>
+          <div class="brazil-works"><b>PROJETOS-CHAVE</b><ul><li>FormInform</li><li>Identidade Itaú</li><li>Metal Leve, Eucatex e Klabin</li></ul></div>
+        </article>
+        <article class="brazil-card reveal" data-author="bea" tabindex="0">
+          <div class="brazil-number">03</div><div class="brazil-mark mark-bea" aria-hidden="true"><span>Bf</span></div>
+          <div class="brazil-copy"><p>RIO DE JANEIRO · 1938—1982</p><h3>Bea<br>Feitler</h3><p>Transformou direção de arte em narrativa: imagens, ritmo e tipografia passaram a construir uma voz editorial.</p></div>
+          <div class="brazil-works"><b>PROJETOS-CHAVE</b><ul><li>Revista Senhor <em>1959—61</em></li><li>Harper’s Bazaar <em>1963—72</em></li><li>Ms. e Rolling Stone <em>1972—81</em></li></ul></div>
+        </article>
+        <article class="brazil-card reveal" data-author="rogerio" tabindex="0">
+          <div class="brazil-number">04</div><div class="brazil-mark mark-rogerio" aria-hidden="true"><span>R!</span></div>
+          <div class="brazil-copy"><p>BAHIA · 1939—2016</p><h3>Rogério<br>Duarte</h3><p>Deu forma gráfica à energia tropicalista, misturando cultura popular, psicodelia, cinema e contestação política.</p></div>
+          <div class="brazil-works"><b>PROJETOS-CHAVE</b><ul><li>Deus e o Diabo na Terra do Sol <em>1964</em></li><li>Caetano Veloso <em>1968</em></li><li>Gilberto Gil <em>1968</em></li></ul></div>
+        </article>
+      </div>
+
+      <div class="brazil-axis reveal" aria-label="Dois eixos do design gráfico brasileiro"><div><span>ORDEM</span><b>Identidade · Método · Indústria</b></div><i>×</i><div><span>INVENÇÃO</span><b>Cultura · Mistura · Resistência</b></div></div>
+    </section>
+
+    <section id="linha-do-tempo" class="timeline-section">
+      <div class="section-head light reveal"><p class="eyebrow">03 — UM SÉCULO EM MOVIMENTO</p><h2>Ideias não surgem<br>no vazio.</h2></div>
+      <div class="timeline" aria-label="Linha do tempo do design gráfico">
+        <div class="timeline-line"><span></span></div>
+        <article class="time-item reveal"><b>1919</b><div><h3>Bauhaus</h3><p>Arte, indústria e vida cotidiana encontram uma linguagem comum.</p></div></article>
+        <article class="time-item reveal"><b>1923</b><div><h3>Nova tipografia</h3><p>Assimetria, sans serif e comunicação objetiva rompem com a tradição.</p></div></article>
+        <article class="time-item reveal"><b>1957</b><div><h3>Estilo suíço</h3><p>O grid modular se torna sinônimo de ordem, neutralidade e clareza.</p></div></article>
+        <article class="time-item reveal"><b>1960</b><div><h3>Identidade corporativa</h3><p>Marcas deixam de ser apenas logos e passam a operar como sistemas.</p></div></article>
+        <article class="time-item reveal"><b>1984</b><div><h3>Desktop publishing</h3><p>O computador pessoal leva novas ferramentas para dentro do estúdio.</p></div></article>
+        <article class="time-item reveal"><b>1991</b><div><h3>Tipografia grunge</h3><p>A imperfeição e o ruído digital desafiam décadas de rigor modernista.</p></div></article>
+        <article class="time-item reveal"><b>HOJE</b><div><h3>Design vivo</h3><p>Interfaces, movimento e inteligência artificial ampliam o campo visual.</p></div></article>
+      </div>
+    </section>
+
+    <section id="legado" class="legacy">
+      <div class="legacy-lead">
+        <div class="legacy-diagram reveal" role="img" aria-label="A herança do design passa pelo olhar crítico e se transforma em novas possibilidades para o futuro.">
+          <div class="legacy-stage legacy-stage-past"><span>01 · HERANÇA</span><strong>O que<br>recebemos</strong><p>Ideias, métodos<br>e linguagens</p></div>
+          <div class="legacy-connector" aria-hidden="true"><span>OBSERVAR</span><b>→</b><span>QUESTIONAR</span></div>
+          <div class="legacy-stage legacy-stage-present"><span>02 · OLHAR CRÍTICO</span><strong>O que<br>escolhemos</strong><p>Contexto, impacto<br>e responsabilidade</p></div>
+          <div class="legacy-connector" aria-hidden="true"><span>RECRIAR</span><b>→</b><span>AMPLIAR</span></div>
+          <div class="legacy-stage legacy-stage-future"><span>03 · TRANSFORMAÇÃO</span><strong>O que<br>construímos</strong><p>Novas vozes,<br>formas e futuros</p></div>
+          <div class="legacy-diagram-message"><span>O DESIGN DE ONTEM</span><b>MUDA O AMANHÃ.</b></div>
+        </div>
+        <div class="legacy-copy reveal"><p class="eyebrow">04 — O QUE FICA</p><h2>Não existe<br>design neutro.</h2><p>Cada escolha — uma fonte, uma cor, um espaço em branco — carrega uma ideia de mundo. O legado dos mestres não é um catálogo de estilos para copiar: é um conjunto de perguntas sobre quem comunica, para quem e com quais consequências.</p></div>
+      </div>
+
+      <div class="legacy-now reveal">
+        <div class="legacy-now-head"><p class="eyebrow">O PRESENTE EM DISPUTA</p><h3>Quatro movimentos que estão redesenhando o campo.</h3><p>O design contemporâneo troca respostas universais por sistemas adaptáveis, múltiplas vozes e responsabilidade coletiva.</p></div>
+        <div class="legacy-movements">
+          <article><span>01</span><h4>Design inclusivo</h4><p>Acessibilidade deixa de ser uma correção no fim do processo e passa a orientar contraste, linguagem, interação e tecnologia desde o início.</p><a href="https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/" target="_blank" rel="noreferrer">W3C / WAI ↗</a></article>
+          <article><span>02</span><h4>Design sistêmico</h4><p>Em vez de objetos isolados, designers observam relações, cadeias e impactos — buscando soluções circulares e regenerativas para desafios climáticos.</p><a href="https://www.designcouncil.org.uk/resources/systemic-design-framework/" target="_blank" rel="noreferrer">Design Council ↗</a></article>
+          <article><span>03</span><h4>Design decolonial</h4><p>O campo revê a ideia de um cânone único, valoriza saberes locais e pergunta quais histórias, idiomas e corpos foram apagados pela suposta neutralidade.</p><a href="https://www.decolonisingdesign.com/" target="_blank" rel="noreferrer">Decolonising Design ↗</a></article>
+          <article><span>04</span><h4>Dados, código & IA</h4><p>Identidades tornam-se vivas e generativas. O papel do designer migra da peça fixa para regras, curadoria e decisões éticas sobre automação.</p><a href="https://processingfoundation.org/" target="_blank" rel="noreferrer">Processing Foundation ↗</a></article>
+        </div>
+      </div>
+
+      <div class="legacy-voices reveal">
+        <div class="legacy-voices-title"><p class="eyebrow">VOZES PARA ACOMPANHAR</p><h3>O legado continua<br>sendo escrito.</h3></div>
+        <div class="legacy-voice-list">
+          <a href="https://www.pentagram.com/about/giorgia-lupi" target="_blank" rel="noreferrer"><span>ITÁLIA / EUA</span><h4>Giorgia Lupi</h4><p>Humaniza dados ao transformá-los em narrativas visuais sensíveis, desenhadas à mão ou em escala digital.</p><b>Dados & narrativa ↗</b></a>
+          <a href="https://www.pentagram.com/about/eddie-opara" target="_blank" rel="noreferrer"><span>REINO UNIDO / EUA</span><h4>Eddie Opara</h4><p>Conecta identidade, estratégia e tecnologia em projetos que atravessam publicações, ambientes e interfaces.</p><b>Sistemas & tecnologia ↗</b></a>
+          <a href="https://www.a-g-i.org/user/ricolins/" target="_blank" rel="noreferrer"><span>BRASIL</span><h4>Rico Lins</h4><p>Mistura repertórios populares e experimentação tipográfica numa prática que cruza cultura, editorial e direção de arte.</p><b>Cultura & linguagem ↗</b></a>
+          <a href="https://a-g-i.org/user/kikofarkas/" target="_blank" rel="noreferrer"><span>BRASIL</span><h4>Kiko Farkas</h4><p>Fez do cartaz um território de síntese entre música, ilustração e tipografia, além de atuar na formação do design brasileiro.</p><b>Cartaz & identidade ↗</b></a>
+        </div>
+      </div>
+
+      <div class="legacy-close reveal"><p>Dos grids modernistas aos sistemas generativos, a pergunta permanece:</p><blockquote>que mundo cada escolha visual ajuda a tornar possível?</blockquote><a href="#inicio">VOLTAR AO INÍCIO <span>↑</span></a></div>
+    </section>
+
+    <section id="fontes" class="sources-section">
+      <div class="sources-title"><p class="eyebrow">05 — REFERÊNCIAS</p><h2>Fontes &<br>bibliografia.</h2></div>
+      <div class="sources-columns">
+        <div><h3>Bibliografia essencial</h3><ol><li>MEGGS, Philip B.; PURVIS, Alston W. <i>Meggs’ History of Graphic Design.</i> 6ª ed. Wiley, 2016.</li><li>MÜLLER-BROCKMANN, Josef. <i>Grid Systems in Graphic Design.</i> Niggli, 1981.</li><li>RAND, Paul. <i>Paul Rand: A Designer’s Art.</i> Yale University Press, 1985.</li><li>VIGNELLI, Massimo. <i>The Vignelli Canon.</i> Lars Müller Publishers, 2010.</li><li>BLACKWELL, Lewis; CARSON, David. <i>The End of Print.</i> Chronicle Books, 1995.</li><li>BROOK, Tony; SHAUGHNESSY, Adrian. <i>Paula Scher: Works.</i> Unit Editions, 2017.</li><li>LEITE, João de Souza; TABORDA, Felipe. <i>A Herança do Olhar: o design de Aloisio Magalhães.</i> Senac Rio, 2003.</li><li>STOLARSKI, André. <i>Alexandre Wollner e a formação do design moderno no Brasil.</i> Cosac Naify, 2005.</li></ol></div>
+        <div><h3>Acervos e pesquisa on-line</h3><ol>
+          <li><a href="https://www.moma.org/artists/2359-walter-gropius" target="_blank" rel="noreferrer">MoMA — Walter Gropius</a></li>
+          <li><a href="https://www.moma.org/artists/3569-el-lissitzky" target="_blank" rel="noreferrer">MoMA — El Lissitzky</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:About_Two_Squares_09.jpg" target="_blank" rel="noreferrer">Wikimedia Commons — Sobre dois quadrados</a></li>
+          <li><a href="https://syjmb.foundation/en/josef-mueller-brockmann/" target="_blank" rel="noreferrer">Shizuko Yoshikawa and Josef Müller-Brockmann Foundation</a></li>
+          <li><a href="https://assets.peoplesgdarchive.org/item/5754/beethoven-poster-for-the-zurich-town-hall" target="_blank" rel="noreferrer">People’s Graphic Design Archive — Beethoven</a></li>
+          <li><a href="https://a-g-i.org/design/the-man-with-the-golden-arm" target="_blank" rel="noreferrer">Alliance Graphique Internationale — Saul Bass</a></li>
+          <li><a href="https://americanart.si.edu/artist/paul-rand-3936" target="_blank" rel="noreferrer">Smithsonian American Art Museum — Paul Rand</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Logo_text_American_Airlines_(1967-2013).png" target="_blank" rel="noreferrer">Wikimedia Commons — American Airlines</a></li>
+          <li><a href="https://www.nytransitmuseum.org/vignelli/" target="_blank" rel="noreferrer">New York Transit Museum — Vignelli Map</a></li>
+          <li><a href="https://www.pentagram.com/about/paula-scher?frame=0" target="_blank" rel="noreferrer">Pentagram — Paula Scher</a></li>
+          <li><a href="https://www.itsnicethat.com/news/paula-scher-pentagram-twenty-five-years-at-the-public-graphic-design-publication-270120" target="_blank" rel="noreferrer">It’s Nice That — Bring in ’Da Noise, Bring in ’Da Funk</a></li>
+          <li><a href="https://www.thegraphicdesignschool.com/design-history/ray-gun/" target="_blank" rel="noreferrer">TGDS — Ray Gun / David Carson</a></li>
+          <li><a href="https://petrobras.com.br/quem-somos/nossa-marca" target="_blank" rel="noreferrer">Petrobras — história da marca</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:PETROBRAS_OLD_LOGO_(cropped).svg" target="_blank" rel="noreferrer">Wikimedia Commons — marca Petrobras de 1972</a></li>
+          <li><a href="https://memoriasdodesign.espm.br/alexandre-wollner/" target="_blank" rel="noreferrer">Memórias do Design ESPM — Alexandre Wollner</a></li>
+          <li><a href="https://findingaids.archives.newschool.edu/repositories/3/resources/15" target="_blank" rel="noreferrer">The New School Archives — Bea Feitler</a></li>
+          <li><a href="https://conteudo.ebc.com.br/portal/projetos/2017/tropicalia/" target="_blank" rel="noreferrer">EBC — Tropicália e Rogério Duarte</a></li>
+        </ol></div>
+      </div>
+      <p class="rights-note">Imagens apresentadas em baixa resolução para fins educativos e de crítica histórica. Direitos pertencem aos respectivos autores e acervos; cada legenda aponta para a fonte original.</p>
+    </section>
+  </main>
+
+  <dialog id="author-modal" class="author-modal">
+    <button class="author-modal-close" type="button" aria-label="Fechar dossiê">×</button>
+    <div class="author-modal-visual"><img src="" alt=""><span></span><div class="work-preview-meta"><b></b><small></small></div></div>
+    <div class="author-modal-body">
+      <p class="author-modal-kicker">SELECIONE UMA OBRA</p><h2></h2><p class="author-modal-description"></p>
+      <ol class="author-modal-works"></ol>
+      <a class="author-modal-source" href="" target="_blank" rel="noreferrer">ABRIR OBRA NA FONTE ↗</a>
+    </div>
+  </dialog>
+
+  <footer><div class="brand">MD<span>—</span>G</div><p>Uma homenagem à história do design gráfico.</p><p>Pesquisa & curadoria editorial · 2026</p></footer>
+</body>
+</html>

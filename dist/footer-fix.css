@@ -1,0 +1,4 @@
+footer{background:var(--ink);color:var(--paper);border-top:8px solid var(--red)}
+footer .brand{color:var(--paper)}
+footer .brand span{color:var(--yellow)}
+footer p{color:rgba(238,233,223,.72)}

@@ -1,0 +1,5 @@
+/* Mantém a introdução legível quando o símbolo solar cruza a coluna de texto. */
+.brazil-sun:before,.brazil-sun:after{opacity:.24}
+.brazil-intro{z-index:4;padding:18px 20px;background:rgba(240,185,30,.94);border-left:4px solid #1c42cc;box-shadow:8px 8px 0 rgba(16,38,29,.12)}
+@media(max-width:900px){.brazil-intro{max-width:560px}}
+@media(max-width:600px){.brazil-intro{padding:15px 16px;font-size:15px;box-shadow:6px 6px 0 rgba(16,38,29,.12)}}
