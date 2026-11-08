@@ -1,4 +1,5 @@
 .author-modal-visual { background-position: center; background-repeat: no-repeat; background-size: contain; }
+.author-modal-visual.white-background { background-color: #fff; }
 .author-modal-visual img { display: none !important; }
 .author-modal-works li { cursor: pointer; transition: background .2s, padding .2s; }
 .author-modal-works li:hover,.author-modal-works li:focus-visible,.author-modal-works li.active { background: var(--red); padding-left: 12px; padding-right: 12px; outline: 0; }
