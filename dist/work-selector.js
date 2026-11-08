@@ -34,10 +34,10 @@ carson:[
 aloisio:[
 ['https://multi.rio/images/historia_do_brasil/cap_9/84_simbolo2_corrigido.jpg','https://multirio.rio.rj.gov.br/index.php/estude/historia-do-brasil/rio-de-janeiro/71-um-rio-de-muitos-janeiros/3364-o-rio-de-janeiro-em-seus-400-anos-de-fundacao','Símbolo do IV Centenário do Rio'],
 ['https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A_oJMY_r58_HNCzHgBecT4w.jpeg','https://www.bcb.gov.br/cedulasemoedas/cedulasemitidas','Cédulas do Cruzeiro Novo'],
-['https://commons.wikimedia.org/wiki/Special:FilePath/PETROBRAS_OLD_LOGO_%28cropped%29.svg?width=1200','https://petrobras.com.br/quem-somos/nossa-marca','Identidade Petrobras de 1972']],
+['assets/obras-brasil/petrobras-1972.jpg','https://petrobras.com.br/quem-somos/nossa-marca','Identidade Petrobras de 1972']],
 wollner:[
 ['https://substackcdn.com/image/fetch/f_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A/bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com/public/images/43831c01-62ab-45e9-bf9d-7bb930ae553e_600x600.png','https://memoriasdodesign.espm.br/alexandre-wollner/','Marcas criadas no contexto da FormInform'],
-['https://marino.com.br/wp-content/uploads/evolucao-do-logo-ao-longo-do-anos.png','https://marino.com.br/rebranding-do-itau/','Evolução da identidade visual do Itaú'],
+['assets/obras-brasil/itau-identidade.jpg','https://stickel.com.br/atc/coisas/40696','Evolução da identidade visual do Itaú'],
 ['https://stickel.com.br/atc/uploads/wollner.jpg','https://memoriasdodesign.espm.br/alexandre-wollner/','Marcas Metal Leve, Eucatex e outras']],
 bea:[
 ['https://miro.medium.com/v2/resize%3Afit%3A1400/1%2ApZUx0cBzaqvcd-6cZoUvjA.jpeg','https://findingaids.archives.newschool.edu/repositories/3/resources/15','Capas da revista Senhor'],
