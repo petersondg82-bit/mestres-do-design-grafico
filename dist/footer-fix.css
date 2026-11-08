@@ -2,3 +2,10 @@ footer{background:var(--ink);color:var(--paper);border-top:8px solid var(--red)}
 footer .brand{color:var(--paper)}
 footer .brand span{color:var(--yellow)}
 footer p{color:rgba(238,233,223,.72)}
+.footer-credit{display:flex;flex-direction:column;align-items:flex-start;gap:7px}
+.footer-credit span,.footer-credit small{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:rgba(238,233,223,.55)}
+.footer-credit a{color:var(--paper);font:600 clamp(17px,1.7vw,24px) var(--display);letter-spacing:-.04em;text-decoration:none;border-bottom:1px solid rgba(238,233,223,.45);padding-bottom:4px;transition:color .2s,border-color .2s}
+.footer-credit a b{color:var(--yellow);font:500 14px var(--mono)}
+.footer-credit a:hover,.footer-credit a:focus-visible{color:var(--yellow);border-color:var(--yellow)}
+.footer-credit .privacy-link{margin-top:6px;padding:0;border:0;font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:rgba(238,233,223,.72);text-decoration:underline;text-underline-offset:4px}
+.footer-credit .privacy-link:hover,.footer-credit .privacy-link:focus-visible{color:var(--yellow)}
